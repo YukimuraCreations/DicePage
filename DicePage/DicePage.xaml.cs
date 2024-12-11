@@ -14,6 +14,8 @@ namespace DicePage
             Random random = new Random();
             int randomNr = random.Next(1, 7);
 
+            DiceImage.RotateTo(DiceImage.Rotation + 360);
+
             switch (randomNr)
             {
                 case 1:
